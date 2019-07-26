@@ -1,4 +1,4 @@
-(module TE_SuperSeal_1.0-34_Header (layer F.Cu) (tedit 5D3A640D)
+(module TE_SuperSeal_1.0-34_Header (layer F.Cu) (tedit 5D3A6723)
   (descr "TE SuperSeal 1.0 PCB Header, through-hole, https://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Customer+Drawing%7F9-1437287-8%7FA1%7Fpdf%7FEnglish%7FENG_CD_9-1437287-8_A1.pdf%7F6437288-3")
   (tags "superseal pcb header")
   (fp_text reference REF** (at 12 12.5) (layer F.SilkS)
@@ -123,4 +123,9 @@
   (pad 32 thru_hole circle (at 18 8) (size 2.1 2.1) (drill 1.5) (layers *.Cu *.Mask))
   (pad 33 thru_hole circle (at 21 8) (size 2.1 2.1) (drill 1.5) (layers *.Cu *.Mask))
   (pad 34 thru_hole circle (at 24 8) (size 2.1 2.1) (drill 1.5) (layers *.Cu *.Mask))
+  (model ${KISYS3DMOD}/Connector_TE-Connectivity.3dshapes/TE_SuperSeal_1.0-34_Header.wrl
+    (at (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
 )
